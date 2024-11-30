@@ -1,0 +1,17 @@
+**dist
+**docker
+**node_modules
+**requests
+**test
+
+**.dockerignore
+**.eslintrc.js
+**.gitignore
+**.prettierrc
+**docker-compose.yml
+**Dockerfile
+**docker-entrypoint.sh
+**nest-cli.json
+**.md
+**tsconfig.build.json
+**tsconfig.json
