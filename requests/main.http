@@ -1,0 +1,5 @@
+### Get a "Hello World!" message.
+# @no-cookie-jar
+# @no-log
+# @no-redirect
+GET {{ app_address }}
