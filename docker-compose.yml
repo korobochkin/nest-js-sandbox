@@ -13,3 +13,14 @@ services:
       - "127.0.0.1:9229:9229/tcp" # Node.js Debugger
     environment:
       NODE_ENV: "development"
+
+  database:
+    image: postgres:17.5
+    restart: always
+    ports:
+      - '127.0.0.1:5432:5432'
+    environment:
+      POSTGRES_HOST_AUTH_METHOD: "trust"
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "nest_js_sandbox"
