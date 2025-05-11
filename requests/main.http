@@ -3,3 +3,9 @@
 # @no-log
 # @no-redirect
 GET {{ app_address }}
+
+### Slow SQL request
+# @no-cookie-jar
+# @no-log
+# @no-redirect
+GET {{ app_address }}/slow-requests
